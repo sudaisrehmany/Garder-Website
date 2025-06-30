@@ -1,0 +1,642 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Styles for the Navigation Bar  */
+
+.navbar-nav .dropdown-menu {
+  position: static;
+  width: 200px;
+}
+
+.navbar {
+  background-color: #e9b80b;
+  box-shadow: 0px 5px 25px rgb(255, 166, 0);
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+ .nav-item a{
+  font-size: 15px;
+}
+
+
+/* Styles for the Banner */
+
+.bg-light {
+  background-color: transparent;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+}
+
+.carousel-caption h5 {
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.carousel-caption a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: darkorange;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #000;
+  margin-top: 15px;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+
+
+
+/* Styles for the Cards */
+
+.card-gap {
+  margin-bottom: 1.5rem;
+}
+
+.card{
+  box-shadow: 5px 10px 15px grey;
+}
+
+ .card:hover{
+  background-color: rgb(243, 200, 69);
+  border-radius: 10%;
+} 
+
+
+
+
+
+/* Styles for the Collage pics  */
+
+.collage-para::first-letter {
+  color: red;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.collage-para:hover {
+  color: rgb(106, 106, 104);
+}
+
+
+
+
+
+/* Styles for the Gallery  */
+
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  
+  .gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  
+  .gallery-item .overlay h3 {
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+ 
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+
+  .gallery-item:hover .overlay h3 {
+    opacity: 1;
+  }
+
+
+
+  
+
+
+  /* Styles for the contact form */
+
+  .contact-form{
+    background-image: url(./pics/contact-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 125vh;
+    width: 100%;
+  }
+  
+  .form-head {
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 0px 60px 0px;
+    color: #00fffb;
+    padding-top: 100px;
+  }
+  
+  
+  .form-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 45px;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(-5px);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    padding: 20px 25px 15px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .btn-primary {
+    padding: 0 32px;
+    font-size: 18px;
+    line-height: 48px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-primary:hover {
+    border: 1px solid #000; 
+    background: transparent;
+    color: black;
+  }
+  
+
+ 
+  /* Styles for the gradening tips Content */
+  
+  .gardening-tips{
+    text-align: justify;
+     padding-bottom: 50px;
+  }
+
+  .gardening-tips .row .col-lg-6 img{
+    padding-bottom: 10px;
+  }
+ 
+
+
+  /* Styles for the gradening techniques Content */
+  
+  .gardening-techniques{
+    text-align: justify;
+     padding-bottom: 50px;
+  }
+
+  .gardening-techniques .row .col-lg-6 img{
+    padding-bottom: 10px;
+  }
+ 
+
+
+/* Styles for the Wall Mounted content */
+
+.wall-mounted .row .col-lg-6 img{
+  padding-bottom: 15px;
+}
+
+.wall-mounted{
+  padding-bottom: 50px;
+}
+
+
+
+/* Styles for the wall-hanging-brackets  */
+
+.wall-hanging-brackets .row .col-lg-6 img{
+  padding-bottom: 15px;
+}
+
+
+
+
+/* Styles for the Accessories  */
+
+.accessories-card{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 580px;
+  box-shadow: 5px 7px 25px;
+}
+
+
+
+
+/* Styles for the tools/How to use Section  */
+
+.tools{
+  text-align: justify;
+   padding-bottom: 50px;
+}
+
+.tools .row .col-lg-6 iframe{
+  padding-bottom: 300px;
+}
+
+
+
+
+
+/* Styles for the Products Content  */
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 350px;
+  box-shadow: 5px 7px 25px;
+}
+
+.card-img img{
+  width: 100%;
+  height: 220px;
+} 
+
+
+
+
+
+
+/* Styles for the Books section  */
+
+#shelf {
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
+}
+
+/* BOOK BINDINGS */
+.book-bg {
+  overflow: hidden;
+  height: 32rem;
+  margin: 2px;
+  cursor: pointer;
+  transition: margin 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  filter: grayscale(25%);
+  border-radius: 4px;
+  background: grey;
+  box-shadow: 0 0.5rem 1rem 0rem rgba(0, 0, 0, 0.4);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-image: linear-gradient(
+    to right,
+    #333,
+    #333 15%,
+    antiquewhite 30%,
+    antiquewhite 70%,
+    #333 85%,
+    #333
+  );
+  border-image-slice: 1;
+  order: 200;
+}
+.book-bg:hover {
+  box-shadow: 0 0.5rem 3rem -0.5rem rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  margin-top: -15px;
+  transform: scale(1.03, 1.03);
+}
+/* END BOOK BINDINGS */
+
+/* BOOK WIDTHS */
+.graphic {
+  width: 6rem;
+}
+.data {
+  width: 5rem;
+}
+.photo {
+  width: 5rem;
+}
+.landscape {
+  width: 6rem;
+}
+.writing {
+  width: 4rem;
+}
+.web {
+  width: 5rem;
+}
+/* END BOOK WIDTHS */
+
+/* TITLE SHADOWS */
+.book h1,
+h2,
+h3,
+h4,
+h5 {
+  text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+}
+.web .book h1,
+h3 {
+  text-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.6);
+}
+/* END TITLE SHADOWS */
+
+/* DEFAULT BOOK ATTRIBUTES */
+.book {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  box-shadow: inset -0.35rem 0 0.5rem rgba(0, 0, 0, 0.4),
+    inset 0.35rem 0 0.5rem rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-rl;
+}
+.contents {
+  opacity: 0;
+}
+/* END DEFAULT BOOK ATTRIBUTES */
+
+/* GRAPHIC DESIGN */
+.graphic .book {
+  align-items: center;
+  background: radial-gradient(
+      ellipse at top,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.75)
+    ),
+    radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+  font-family: "Unica One", cursive;
+  color: darkorange;
+}
+/* END GRAPHIC DESIGN */
+
+/* DATA VISUALIZATION */
+.data .book {
+  background: radial-gradient(
+      ellipse at top,
+      rgba(50, 10, 87, 0.55),
+      rgba(0, 0, 0, 0.75)
+    ),
+    radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+  font-family: "Smooch Sans", sans-serif;
+  color: rgb(221, 206, 206);
+}
+/* END DATA VISUALIZATION */
+
+/* PHOTOGRAPHY */
+.photo .book {
+  background: radial-gradient(
+      ellipse at top,
+      rgba(189, 147, 189, 0.55),
+      rgba(0, 0, 0, 0.85)
+    ),
+    radial-gradient(ellipse at bottom, rgba(185, 154, 154, 0.5), transparent);
+  font-family: "Nothing You Could Do", cursive;
+  color: #212121;
+}
+/* END PHOTOGRAPHY */
+
+/* LANDSCAPE DESIGN */
+.landscape .book {
+  background: radial-gradient(
+      ellipse at top,
+      rgba(2, 95, 18, 0.55),
+      rgba(0, 0, 0, 0.75)
+    ),
+    radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(247, 229, 192);
+}
+/* END LANDSCAPE DESIGN */
+
+/* CREATIVE WRITING */
+.writing .book {
+  background: radial-gradient(
+      ellipse at top,
+      rgba(94, 15, 6, 0.76),
+      rgba(0, 0, 0, 0.75)
+    ),
+    radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+  font-family: "Lora", serif;
+  color: rgb(216, 191, 191);
+}
+/* END CREATIVE WRITING */
+
+/* WEB DESIGN */
+.web .book {
+  background: radial-gradient(
+      ellipse at top,
+      rgba(255, 255, 255, 0.63),
+      rgba(0, 0, 0, 0.75)
+    ),
+    radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+  font-family: "Inconsolata", monospace;
+  color: #333;
+}
+/* END WEB DESIGN */
+
+/* OPEN BOOK */
+.book-bg.active {
+  box-shadow: 0 0.5rem 3rem -0.5rem rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 61rem;
+  height: 32rem;
+  margin-top: -22px;
+  z-index: 10;
+  border-top-width: 0;
+}
+.contents {
+  display: flex;
+  position: absolute;
+}
+.book-bg.active .contents {
+  background-color: antiquewhite;
+  position: fixed;
+  opacity: 100;
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  border-left-style: double;
+  border-right-style: double;
+  border-left-width: 4px;
+  border-right-width: 4px;
+  border-color: rgb(92, 92, 92);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: antiquewhite;
+  border-bottom-style: groove;
+  border-bottom-color: rgb(155, 153, 153);
+  border-bottom-width: 2px;
+  color: #333;
+  writing-mode: horizontal-tb;
+  font-family: "Nothing You Could Do", cursive;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 4rem);
+  height: calc(100% - 4em);
+  margin: 2rem;
+}
+.page h1,
+h3 {
+  text-shadow: none;
+}
+.is-grid {
+  display: grid;
+  gap: 5px;
+  grid-template: "1fr 1fr 1fr" "1fr 1fr 1fr" "1fr 1fr 1fr";
+}
+.illus {
+  border: 5px solid white;
+  flex: 1;
+  background-size: cover;
+}
+.text {
+  margin: 1rem;
+}
+#page-shading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(30, 30, 30, 0.1),
+    transparent 25%,
+    transparent 30%,
+    rgba(30, 30, 30, 0.3) 48%,
+    rgba(30, 30, 30, 0.4) 50%,
+    transparent 50%,
+    rgba(30, 30, 30, 0.3) 70%,
+    transparent
+  );
+}
+.book-bg.active #book-shading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    transparent 43%,
+    rgba(30, 30, 30, 0.3) 44%,
+    rgba(30, 30, 30, 0.5) 45%,
+    rgba(30, 30, 30, 0.4) 50%,
+    rgba(30, 30, 30, 0.65) 55%,
+    rgba(30, 30, 30, 0.3) 56%,
+    transparent 57%,
+    transparent
+  );
+}
+/* END OPEN BOOK */
+
+/* BACK ARROW */
+#back svg {
+  position: absolute;
+  border: none;
+  width: 2rem;
+  right: 0.25rem;
+  top: 0.125rem;
+  z-index: 10;
+  opacity: 85%;
+  filter: drop-shadow(0px 0px 2px black);
+}
+#back svg:hover {
+  opacity: 100%;
+  filter: drop-shadow(0px 0px 2px whitesmoke);
+}
+/* BACK ARROW */
+    
+
+
+
+
+
+
+
+
+
+/*........... CSS Media Queries For Responsive ............. */
+
+
+@media only screen and (max-width: 767px) {
+
+  .carousel-caption {
+    bottom: 165px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 35px;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+}
+
+
